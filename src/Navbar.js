@@ -12,7 +12,7 @@ const Navbar = () => {
        console.log(toggle);
    }
 
-    return ( 
+    return ( <>
         <nav className="navbar">
           <div className="nav-link-left">
           <Link to="/Main" className="link-left karin">Karin Lundqvist</Link>
@@ -20,7 +20,6 @@ const Navbar = () => {
           </div>
   
        
-
           <div className={`nav-link-right ${toggle ? 'active' : ''}`}>  
             
             <Link to="/CV" className="cv" className="link-right" >
@@ -36,9 +35,30 @@ const Navbar = () => {
           
      
         </div>
+
+
+
+
         <GiHamburger onClick={handleToggle} className="toggle-menu"/>
           {/* <button onClick={handleToggle} className="toggle-menu">Menu</button> */}
         </nav>
+        <div className={`sub-nav-right ${toggle ? 'active' : ''}`}>  
+            
+            <Link to="/CV" className="cv" className="link-right" >
+                CV
+            </Link>
+
+            <a href="https://instagram.com/lundqvistkarin" target="_blank" rel="noreferrer" className="link-right">
+                Instagram
+            </a>
+            <a href="http://vimeo.com/karinlundqvist" target="_blank" rel="noreferrer" className="link-right">
+                Vimeo
+            </a>
+          
+     
+        </div>
+
+        </>
      );
 }
  

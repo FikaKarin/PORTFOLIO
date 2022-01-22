@@ -20,9 +20,8 @@ function App() {
             <Route path="/Portfolio" element={<Portfolio />}></Route>
             <Route path="/CV" element={<Cv />}></Route>
             <Route path="https://instagram.com/lundqvistkarin" target="_blank">Instagram</Route>
-
-           
           </Routes>
+          
         </div>
       </div>
     </div>

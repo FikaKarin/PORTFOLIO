@@ -1,4 +1,3 @@
-
 import CV from '../src/JPG CV Portfolio.jpg'
 
 const Cv = () => {
@@ -11,6 +10,6 @@ const Cv = () => {
    
 
      );
-};
+}
  
 export default Cv;
