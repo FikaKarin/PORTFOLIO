@@ -8,10 +8,12 @@ import Main from './Main';
 
 
 
+
 function App() {
   return (
     <div className="App">
       <div className="body">
+      <img src="/images/vit matrix.jpg" alt="colorback" />
         <Navbar />
         <div className="main">
           <Routes>
