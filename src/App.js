@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import {Routes, Route} from 'react-router-dom'
+import Cv from './CV';
+import Start from './Start';
+import Portfolio from './Portfolio';
+import Main from './Main';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="body">
+        <Navbar />
+        <div className="main">
+          <Routes>
+          <Route path="/Main" element={<Main />}></Route>
+            <Route path="/" element={<Start />}></Route>
+            <Route path="/Portfolio" element={<Portfolio />}></Route>
+            <Route path="/CV" element={<Cv />}></Route>
+            <Route path="https://instagram.com/lundqvistkarin" target="_blank">Instagram</Route>
+
+           
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }
