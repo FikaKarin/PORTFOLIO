@@ -5,7 +5,7 @@ import Cv from './CV';
 import Start from './Start';
 import Portfolio from './Portfolio';
 import Main from './Main';
-
+import Footer from './components/Footer';
 
 
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="body">
-      <img src="/images/vit matrix.jpg" alt="colorback" />
+      
         <Navbar />
         <div className="main">
           <Routes>
@@ -23,7 +23,7 @@ function App() {
             <Route path="/CV" element={<Cv />}></Route>
             <Route path="https://instagram.com/lundqvistkarin" target="_blank">Instagram</Route>
           </Routes>
-          
+          <Footer />
         </div>
       </div>
     </div>

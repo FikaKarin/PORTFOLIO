@@ -3,19 +3,18 @@
 * {
   margin: 0;
   font-family: "Quicksand", sans-serif;
-  color: #333;
+  color: turquoise;
 }
 
 .navbar {
   z-index: 5;
   position: relative;
-  border: 1px solid red;
+  border-bottom: 2px solid rgb(0, 0, 0);
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  width: 100%;
-  background-color: #fff;
+  width: 100%; 
 }
 
 
@@ -28,18 +27,19 @@
 }
 
 .nav-link-left {
-  margin-left: 15%;
+  margin-left: 1%;
 }
 
 
 .nav-link-left .link-left {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   display: block;
-  color: black;
+  color: rgb(87, 255, 238);
   text-decoration: none;
   padding: 10px;
   transition: all 0.2s ease-in-out;
-  border-radius: 10px;
+  margin: 15px;
+  font-weight: bold;
 }
 
 .nav-link-right {
@@ -48,20 +48,27 @@
 }
 
 .nav-link-right .link-right {
-  font-size: 1.3rem;
-  color: black;
+  font-size: 1.4rem;
+  color: rgb(104, 248, 234);
   text-decoration: none;
   padding: 10px;
   transition: all 0.3s ease-in-out;
-  border-radius: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  margin: 5px
 }
 
 .nav-link-right .link-right:hover {
-  color: red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  /* text-shadow:-2px 1px 1px black; */
+  font-weight: bolder;
 }
 
 .nav-link-left .link-left:hover {
-  color: red;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  /* text-shadow: -4px 0px 2px black; */
+  border-radius: 3px;
+  font-weight: bold;
 }
 .toggle-menu {
   display: none;
@@ -70,12 +77,13 @@
 .sub-nav-right {
   z-index: 4;
   display: flex;
-  border: 1px rgb(153, 61, 76) solid;
+  /* border: 1px rgb(153, 61, 76) solid; */
+  font-weight: bold;
   width: 100px;
-  height: 100px;
+  height: 190px;
   position: absolute;
   right: 0;
-  top: -15%;
+  top: -25%;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -94,10 +102,25 @@
     display: block;
     position: absolute;
     right: 2%;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    
+  }
+
+  .toggle-menu:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    transition: all 0.1s ease-in;
   }
 
   .sub-nav-right.active {
     top: 60px;
+    margin: 15px;
+    font-size: 1.5rem;
+    
+  }
+  .sub-nav-right.active a:hover {
+    top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    padding: 8px;
+    transition: all 0.2s ease-in;
   }
 }
