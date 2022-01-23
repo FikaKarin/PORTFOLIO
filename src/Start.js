@@ -1,6 +1,6 @@
 const Start = () => {
     return ( 
-        <div><p>Start</p></div>
+        <div></div>
      );
 }
  
