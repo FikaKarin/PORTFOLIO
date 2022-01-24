@@ -1,4 +1,5 @@
 import CV from '../src/JPG CV Portfolio.jpg'
+import './CV.css'
 
 const Cv = () => {
     return ( 

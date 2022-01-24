@@ -102,8 +102,7 @@
     display: block;
     position: absolute;
     right: 2%;
-    font-size: 2.5rem;
-    
+    font-size: 2.5rem;  
   }
 
   .toggle-menu:hover {
@@ -115,12 +114,12 @@
     top: 60px;
     margin: 15px;
     font-size: 1.5rem;
-    
   }
   .sub-nav-right.active a:hover {
     top: 60px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
     padding: 8px;
     transition: all 0.2s ease-in;
+
   }
 }
