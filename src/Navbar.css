@@ -9,11 +9,11 @@
 .navbar {
   z-index: 5;
   position: relative;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  /* border-bottom: 2px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
+  height: 150px;
   width: 100%; 
 }
 
@@ -27,7 +27,7 @@
 }
 
 .nav-link-left {
-  margin-left: 1%;
+  margin-left: 5%;
 }
 
 
@@ -38,13 +38,13 @@
   text-decoration: none;
   padding: 10px;
   transition: all 0.2s ease-in-out;
-  margin: 15px;
+  margin: 5px;
   font-weight: bold;
 }
 
 .nav-link-right {
   position: absolute;
-  right: 10%;
+  right: 6%;
 }
 
 .nav-link-right .link-right {
@@ -94,7 +94,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 810px) {
   .nav-link-right {
     display: none;
   }

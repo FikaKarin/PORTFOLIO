@@ -1,12 +1,14 @@
 .footer {
-  position: fixed;
+  /* position:absolute; */
   left: 0;
   bottom: 15px;
   width: 100%;
   font-size: 0.8rem;
   text-align: center;
-  display: grid;
-  justify-items: flex-start;
+  justify-content: center ;
   margin-left: 40px;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid black;
+  padding-top: 5px;
+  display: flex;
 }

@@ -1,11 +1,12 @@
-import Sound from 'react-sound'
+
+import './Main.css'
 
 
 const Main = () => {
 
 
     return ( 
-        <div>
+        <div className='main-content'>
            
         </div>
      );

@@ -1,0 +1,53 @@
+.contact-container {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  margin: 3rem;
+}
+
+.name {
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+padding-left: 0.5rem;
+padding-right: 5rem;
+border-radius: 5px;
+margin: 0.2rem;
+
+}
+
+.email {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 5rem;
+  border-radius: 5px;
+  margin: 0.2rem;
+}
+
+.medd {
+  padding-top: 0.5rem;
+  padding-bottom: 5rem;
+  padding-left: 0.5rem;
+  padding-right: 5rem;
+  border-radius: 5px;
+  margin: 0.2rem;
+}
+
+button {
+  padding: 1rem;
+  border-radius: 10px;
+  background-image: url("/public/images/galaxy.jpg");
+  border: 2px solid black;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+button:hover {
+transition: all 0.1s ease-in;
+box-shadow: 5px 4px 20px  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+} 

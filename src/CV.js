@@ -3,9 +3,10 @@ import './CV.css'
 
 const Cv = () => {
     return ( 
-        <div> 
+        <div className='cv-container'> 
             <img src={CV} alt="Cv"/>
         </div>
+        
      );
 }
  

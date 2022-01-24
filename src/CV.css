@@ -1,7 +1,11 @@
+
+
 img {
-    margin-top: 4rem;
+    margin-top: 1rem;
     border-radius: 5px;
     padding: 20px;
+    max-height: 90em;
+    
 }
 
 img:hover {
