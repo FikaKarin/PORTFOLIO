@@ -10,7 +10,7 @@ const FooterInfo = {
 
 const Footer = () => {
   return (<div className="footer">
-     <p>{FooterInfo.name}</p> <p>{FooterInfo.email}</p> <p>{FooterInfo.phone}</p>
+     <p>{}</p> <p>{FooterInfo.email}</p> <p>{FooterInfo.phone}</p>
 
   </div>)
 }

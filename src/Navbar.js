@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import './Navbar.css'
 import {useState} from 'react';
 import {GiHamburger} from 'react-icons/gi';
-
 const Navbar = () => {
    const [toggle, setToggle] = useState(false);
 
@@ -31,10 +30,12 @@ const Navbar = () => {
             </Link>
 
             <a href="https://instagram.com/lundqvistkarin" target="_blank" rel="noreferrer" className="link-right">
-                Instagram
             </a>
             <a href="https://www.linkedin.com/in/karin-lundqvist-555a3721b/" target="_blank" rel="noreferrer" className="link-right">
                 LinkedIn
+            </a>
+            <a href="https://github.com/FikaKarin" target="_blank" rel="noreferrer" className="link-right">
+                GitHub
             </a>
             <Link to="/Contact" className="Contact" className="link-right" >
                 Contact
@@ -63,8 +64,11 @@ const Navbar = () => {
             <a href="https://www.linkedin.com/in/karin-lundqvist-555a3721b/" target="_blank" rel="noreferrer" className="link-right">
                 LinkedIn
             </a>
+            <a href="https://github.com/FikaKarin" target="_blank" rel="noreferrer" className="link-right">
+                GitHub
+            </a>
             <Link to="/Contact" className="Contact" className="link-right" >
-                Contact
+                Kontakt
             </Link>
           
      
