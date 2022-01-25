@@ -33,8 +33,8 @@ const Navbar = () => {
             <a href="https://instagram.com/lundqvistkarin" target="_blank" rel="noreferrer" className="link-right">
                 Instagram
             </a>
-            <a href="http://vimeo.com/karinlundqvist" target="_blank" rel="noreferrer" className="link-right">
-                Vimeo
+            <a href="https://www.linkedin.com/in/karin-lundqvist-555a3721b/" target="_blank" rel="noreferrer" className="link-right">
+                LinkedIn
             </a>
             <Link to="/Contact" className="Contact" className="link-right" >
                 Contact
@@ -49,7 +49,10 @@ const Navbar = () => {
           {/* <button onClick={handleToggle} className="toggle-menu">Menu</button> */}
         </nav>
         <div className={`sub-nav-right ${toggle ? 'active' : ''}`}>  
-            
+        <Link to="/Portfolio" className="link-right">
+                Portfolio
+            </Link>
+
             <Link to="/CV" className="cv" className="link-right" >
                 CV
             </Link>
@@ -57,9 +60,12 @@ const Navbar = () => {
             <a href="https://instagram.com/lundqvistkarin" target="_blank" rel="noreferrer" className="link-right">
                 Instagram
             </a>
-            <a href="http://vimeo.com/karinlundqvist" target="_blank" rel="noreferrer" className="link-right">
-                Vimeo
+            <a href="https://www.linkedin.com/in/karin-lundqvist-555a3721b/" target="_blank" rel="noreferrer" className="link-right">
+                LinkedIn
             </a>
+            <Link to="/Contact" className="Contact" className="link-right" >
+                Contact
+            </Link>
           
      
         </div>

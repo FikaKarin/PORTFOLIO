@@ -1,13 +1,15 @@
 .contact-container {
   text-align: center;
-  width: 100vw;
+  /* width: 50vw; */
   height: 100vh;
   background-size: cover;
   background-position: center;
+  margin: 0 auto;
+
 }
 
 h1 {
-  margin: 3rem;
+  margin-top: 1rem;
 }
 
 .name {
@@ -51,3 +53,20 @@ button:hover {
 transition: all 0.1s ease-in;
 box-shadow: 5px 4px 20px  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 } 
+
+.form-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  backdrop-filter: blur(15px);
+  width: 50%;
+  margin: 0 auto;
+  box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2), 
+  -10px 16px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.contact-border {
+  border-top: 1px solid black;
+  margin: 20px auto;
+  
+}

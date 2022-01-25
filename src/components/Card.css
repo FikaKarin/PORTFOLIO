@@ -12,6 +12,7 @@
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    backdrop-filter: blur(7px);
 }
 
 .card-container:hover {
@@ -33,10 +34,13 @@
     text-shadow: 2px 2px 3px black;
     color: white;
     margin-bottom: 3%;
+    font-weight: bold;
+    
 }
 
 .card-container a {
     text-decoration: none;
+    text-shadow: 2px 2px 3px black;
 }
 
 .card-container a:hover {
