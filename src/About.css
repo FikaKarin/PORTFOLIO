@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
 
+center img {
+  margin-top: -5px;
+}
 
 
+
+.About-container {
+  margin-top: -40px;
+}
 
 .About-container h4 {
   margin: 67px;
@@ -25,4 +32,10 @@
   transition: all 0.2s ease-in;
   box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 900px) {
+  center img{
+    max-width: 90%
+  }
 }

@@ -6,7 +6,6 @@
   margin: 0 auto;
   width: 80%;
   margin-top: 4rem;
-
 }
 
 h2 {
@@ -14,6 +13,7 @@ h2 {
   text-shadow: 2px 2px 3px black;
   width: 30% auto;
   font-size: 2rem;
+  
 }
 
 .name {
@@ -57,7 +57,6 @@ button {
   color: rgb(143, 248, 238);
   width: 20vw;
   border: 2px solid turquoise;
-
 }
 
 button:hover {
@@ -65,7 +64,6 @@ button:hover {
   box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
   width: 50%;
   border: 1px solid orange;
-
 }
 
 .form-container {
@@ -74,6 +72,7 @@ button:hover {
   padding: 20px;
   backdrop-filter: blur(15px);
   width: 50%;
+  max-width: 60000px;
   margin: 0 auto;
   box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
@@ -84,7 +83,7 @@ button:hover {
   margin: 20px auto;
 }
 
-.name  {
+.name {
   border: 2px solid black;
 }
 .email {
@@ -92,4 +91,10 @@ button:hover {
 }
 .medd {
   border: 2px solid black;
+}
+
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 140%;
+  }
 }

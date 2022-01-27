@@ -17,6 +17,8 @@
   border: 3px solid turquoise;
 }
 
+
+
 .card-container:hover {
   box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 1);
   transition: all 0.2s ease-in;

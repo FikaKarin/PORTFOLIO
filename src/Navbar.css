@@ -15,7 +15,7 @@
   align-items: center;
   height: 100px;
   width: 100%;
-  border-bottom: 2px solid orange;
+  border-bottom: 2.5px solid #f38e66
 }
 
 link-right-icons {
@@ -135,9 +135,10 @@ a {
     display: block;
     position: absolute;
     right: 7%;
-    font-size: 3rem;
-    border: 2px solid;
+    font-size: 4rem;
+    border: 2px solid hotpink;
     border-radius: 3px;
+    padding: 5px
   }
 
   .toggle-menu:hover {
@@ -175,7 +176,8 @@ a {
   }
   .sub-nav-right {
    
-    transition: all 8s ease-in;
+    transition: all 1s ease-in;
+   
     
   }
 }
