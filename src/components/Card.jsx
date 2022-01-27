@@ -1,5 +1,6 @@
 import './Card.css';
 
+
 const Card = ({text, title, link }) => {
     return (
         <div className="card-container">
