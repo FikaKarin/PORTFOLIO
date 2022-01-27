@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+
+
+
+
+.About-container h4 {
+  margin: 67px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 500px;
+  padding: 2rem;
+  backdrop-filter: blur(35px);
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.6;
+  font-weight: lighter;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  color: rgb(181, 240, 234);
+  font-family: "Montserrat", sans-serif;
+  border: 3px solid yellow;
+}
+
+.About-container h4:hover {
+  transition: all 0.2s ease-in;
+  box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
+    -10px 16px 20px 0 rgba(0, 0, 0, 1);
+}

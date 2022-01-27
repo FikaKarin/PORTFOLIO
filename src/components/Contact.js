@@ -32,7 +32,7 @@ function Contact() {
   return (
     <div className="contact-container">
       <div className="form-container">
-      <h1>Kontaktformulär</h1>
+      <h2>Kontaktformulär</h2>
       <div className="contact-border"></div>
 
       <form onSubmit={onSubmit}>

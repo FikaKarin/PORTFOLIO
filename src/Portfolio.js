@@ -3,13 +3,13 @@ import './components/Portfolio.css';
 
 const information = {
   title: 'Fire Sauce',
-  text: 'Skoluppgift. Grupparbete i Javascript 2. SPA (Single Page Application).',
+  text: 'Skoluppgift. Grupparbete i Javascript 2. SPA (Single Page Application). eCom för starka såser.',
   link: {text:'Go to Fire Sauce repo', href: 'https://github.com/BigBits8/JS2Grupparbete'}
 }
 
 const information2 = {
   title: 'Flaymarket',
-  text: 'Skoluppgift. Gruppprojekt i HTML/CSS',
+  text: 'Skoluppgift. Gruppprojekt i HTML/CSS, Flaymarket säljer vapen till dataspalet CS. Komplett med varukorg, produktlista, kontakt m.m.',
   link: {text:'Go to FlayMarket repo', href: 'https://github.com/tovebr/flaymarket'}
   }
 

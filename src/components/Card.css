@@ -1,53 +1,52 @@
-
-
 .card-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50vw;
-    height: 250px;
-    border: 2px solid rgb(0, 0, 0); 
-    border-radius: 20px;
-    margin-bottom: 20px;
-    padding-top: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    backdrop-filter: blur(7px);
-    box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2), 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  height: 340px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  backdrop-filter: blur(7px);
+  box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
-    
-}
+    max-width: 600px;
+    border: 3px solid turquoise;}
 
 .card-container:hover {
-    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 
-    0px 0px 0px 0 rgba(0, 0, 0, 1);
-    transition: all 0.2s ease-in;
+  box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 1);
+  transition: all 0.2s ease-in;
 }
 
 .card-container h2 {
-    margin-top: 3%;
-    text-shadow: 2px 2px 3px black;
-    color: turquoise;
-    font-size: 2rem;
-    
+  margin-top: 3%;
+  text-shadow: 2px 2px 3px black;
+  color: yellow;
+  font-size: 2rem;
+  border-bottom: 2px solid rgb(110, 235, 60);
 }
 
 .card-container p {
-    margin-top: 3%;
-    text-shadow: 2px 2px 3px black;
-    color: white;
-    margin-bottom: 3%;
-    font-weight: bold;
-    
+  margin-top: 3%;
+  text-shadow: 2px 2px 3px black;
+  color: white;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 .card-container a {
-    text-decoration: none;
-    text-shadow: 2px 2px 3px black;
-    
+  text-decoration: none;
+  text-shadow: 2px 2px 3px black;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-size: 0.7rem;
 }
 
 .card-container a:hover {
-    text-decoration: none;
-    border-bottom: 1px solid turquoise;
+  text-decoration: none;
+  border-bottom: 3px solid turquoise;
 }
