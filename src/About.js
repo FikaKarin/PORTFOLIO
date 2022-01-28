@@ -1,6 +1,6 @@
 import "./About.css";
 import AboutYoung from "../src/AboutYoung.jpg";
-import {columns} from 'bootstrap'
+
 
 const About = () => {
   return (
