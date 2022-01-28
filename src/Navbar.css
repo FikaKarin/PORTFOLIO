@@ -6,6 +6,9 @@
   color: turquoise;
 }
 
+* path {
+  color: yellow;
+}
 
 .navbar {
   /* z-index: 5; */
@@ -136,9 +139,9 @@ a {
     position: absolute;
     right: 7%;
     font-size: 4rem;
-    border: 2px solid hotpink;
+    border: 2px solid turquoise;
     border-radius: 3px;
-    padding: 5px
+    padding: 5px;
   }
 
   .toggle-menu:hover {

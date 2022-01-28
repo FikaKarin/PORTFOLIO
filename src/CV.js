@@ -4,7 +4,7 @@ import './CV.css'
 const Cv = () => {
     return ( 
         <div className='cv-container'> 
-            <img src={CV} alt="Cv"/>
+            <center><img src={CV} alt="Cv"/></center>
         </div>
         
      );

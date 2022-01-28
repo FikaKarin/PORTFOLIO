@@ -97,7 +97,7 @@ const Navbar = () => {
 
         <GiHamburger onClick={handleToggle} className="toggle-menu" />
       </nav>
-      <div className={`sub-nav-right ${toggle ? "active" : ""}`}>
+      <div style={{color: 'yellow'}} className={`sub-nav-right ${toggle ? "active" : ""}`}>
         <Link to="/Portfolio" className="portfolio">
           Portfolio
         </Link>
