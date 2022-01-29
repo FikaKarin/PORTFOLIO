@@ -3,9 +3,13 @@
 /* Ger bakgrundsbild till Navbar */
 .App {
   text-align: center;
-  background-image: url("../public/images//galaxy.jpg");
+  background: url("../public/images//galaxy.jpg") center center/cover no-repeat;
   width: 100vw;
-  height: 200vh;
-  background-size: cover;
-  background-position: center; 
+  /* height: 200vh; */
+  /* background-size: cover;
+  background-position: center;  */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }

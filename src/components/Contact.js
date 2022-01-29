@@ -65,7 +65,7 @@ function Contact() {
           onChange={handleChange}
         /><br></br>
 
-        <button type="submit">Skicka meddelande</button>
+        <button type="submit">Skicka</button>
       </form>
     </div>
     </div>

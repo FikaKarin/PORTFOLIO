@@ -14,12 +14,12 @@
 
 h2 {
   margin-top: 1rem;
-  text-shadow: 2px 2px 3px black;
   width: 30% auto;
   font-size: 2rem;
-  color: rgb(255, 166, 228);
+  color: black;
   font-family: 'Bungee Inline', cursive;
-  text-shadow: -3px -3px 2px black, 3px 4px 1px black;
+  text-shadow: -3px -3px 4px rgb(0, 217, 255), 3px 4px 4px rgb(4, 248, 236);
+  background-color: rgba(9, 0, 133, 0.24);
 }
 
 .name {
@@ -53,9 +53,9 @@ h2 {
 }
 
 button {
-  padding: 1rem;
-  border-radius: 10px;
-  background-image: url("/public/images/galaxy.jpg");
+  padding: 3px;
+  border-radius: 5px;
+  /* background-image: url("/public/images/galaxy.jpg"); */
   border: 2px solid black;
   font-weight: bold;
   margin: 0.5rem;
@@ -63,13 +63,16 @@ button {
   color: rgb(143, 248, 238);
   width: 20vw;
   border: 2px solid turquoise;
+  max-width: 150px;
+  background-color: rgba(130, 204, 233, 0.308);
+  font-size: large;
 }
 
 button:hover {
   transition: all 0.1s ease-in;
   box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
   width: 50%;
-  border: 1px solid orange;
+  border: 2px solid yellow;
 }
 
 .form-container {

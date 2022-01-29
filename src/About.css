@@ -5,11 +5,16 @@ h4 center img {
 }
 
 .About-container center img{
-  max-width: 100%
+  max-width: 100%;
+  border: 3px solid yellow;
+  border-radius: 5px;
+
 }
 
 .About-container {
   margin-top: -40px;
+  display: flex;
+  position:relative;
 }
 
 .About-container h4 {
@@ -27,16 +32,19 @@ h4 center img {
   color: rgb(181, 240, 234);
   font-family: "Montserrat", sans-serif;
   border: 3px solid yellow;
+  width: 70%
 }
 
 .About-container h4:hover {
   transition: all 0.2s ease-in;
   box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
+    padding: 20px;
 }
 
 @media screen and (max-width: 900px) {
-  center img{
-    max-width: 90%
+  .About-container h4 center img{
+    max-width: 70%
   }
+ 
 }

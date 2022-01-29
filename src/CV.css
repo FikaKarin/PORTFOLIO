@@ -5,11 +5,11 @@
     padding: 20px;
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
-    border: 3px solid hotpink;
+    border: 3px solid yellow;
     width: 50%;
 }
 
-img:hover {
+.cv-container img:hover {
     transition: all 0.1s ease-in;
     box-shadow: 5px 4px 20px  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
     padding: 15px;

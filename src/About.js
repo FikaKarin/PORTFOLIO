@@ -9,7 +9,7 @@ const About = () => {
           
         <h4>
           
-        <center><img style={{marginBottom:14, borderRadius:10}} src={AboutYoung} alt="young" /></center><br></br>
+        <center><img src={AboutYoung} alt="young" /></center><br></br>
           1987 Föddes jag i Mellerud Dalsland. <br></br>
           Jag var aldrig still men väldigt tyst som barn och mitt hem var alltid fyllt av musik. Pappa Gunnar skrev musik, mamma Lisa va violinist och musiklärare, syster Anna sångerska och cellist, bror Salim slagverkare och morfar Åke var kantor.
           Som 15 åring flyttade jag hemifrån för att utbilda mig till
