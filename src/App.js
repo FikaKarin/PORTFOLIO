@@ -10,7 +10,9 @@ import About from "../src/About";
 function App() {
   return (
     <div className="App">
+      
       <Navbar />
+      
       <div className="main">
         <Routes>
           <Route path="/Main" element={<Main />}></Route>

@@ -18,7 +18,8 @@
   align-items: center;
   height: 100px;
   width: 100%;
-  border-bottom: 2.5px solid #f38e66
+  /* border-bottom: 2.5px solid rgb(253, 194, 84); */
+
 }
 
 link-right-icons {

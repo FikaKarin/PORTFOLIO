@@ -1,8 +1,7 @@
 
 import './Main.css'
 import mainPic from '../src/mainPic.png'
-import MeNeon from '../src/MeNeon.jpg'
-import {columns} from 'bootstrap'
+
 
 const Main = () => {
 
@@ -13,7 +12,7 @@ const Main = () => {
            <center><img src={mainPic} alt="mainPic" /></center>
            
            
-           <center><div className='About-container'>
+           <center><div className='Main-container'>
            <br></br>
               <h4>
                

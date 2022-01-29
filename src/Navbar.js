@@ -31,7 +31,7 @@ const Navbar = () => {
             Portfolio
           </Link>
 
-          <Link to="/CV" className="cv" className="link-right">
+          <Link to="/CV" className="link-right">
             CV
           </Link>
 

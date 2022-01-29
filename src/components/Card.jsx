@@ -1,6 +1,6 @@
 
 
-
+//Container för repositories som hämtas via komp FetchApi
 const Card = ({text, title, link }) => {
     return (
         <div className="card-container">

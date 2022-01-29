@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+
 .contact-container {
   text-align: center;
   height: 100vh;
@@ -6,6 +9,7 @@
   margin: 0 auto;
   width: 80%;
   margin-top: 4rem;
+  
 }
 
 h2 {
@@ -13,7 +17,9 @@ h2 {
   text-shadow: 2px 2px 3px black;
   width: 30% auto;
   font-size: 2rem;
-  color: rgb(145, 255, 145);
+  color: rgb(255, 166, 228);
+  font-family: 'Bungee Inline', cursive;
+  text-shadow: -3px -3px 2px black, 3px 4px 1px black;
 }
 
 .name {
@@ -67,7 +73,7 @@ button:hover {
 }
 
 .form-container {
-  border: 3px solid orange;
+  border: 3px solid rgb(206, 255, 250);
   border-radius: 10px;
   padding: 20px;
   backdrop-filter: blur(15px);
@@ -79,8 +85,8 @@ button:hover {
 }
 
 .contact-border {
-  border-top: 2px solid hotpink;
-  margin: 20px auto;
+  border-top: 2px solid yellow;
+  margin-bottom: 40px;
 }
 
 .name {

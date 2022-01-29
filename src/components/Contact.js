@@ -2,6 +2,7 @@ import "./Contact.css";
 import { useState } from "react";
 import { send } from "emailjs-com";
 
+//funktion för att skicka input från användare till kopplad email.
 function Contact() {
   const [toSend, setToSend] = useState({
     from_name: "",
@@ -9,6 +10,7 @@ function Contact() {
     message: "",
   });
 
+  //const som kopplar template, användar ID, ServiceID från EmailJS
   const onSubmit = (e) => {
     e.preventDefault();
     send(
@@ -17,6 +19,8 @@ function Contact() {
       toSend,
       "user_wRJCO2qIBaz4egjMD6L2E"
     )
+
+    //console log som visar om mejl lyckats eller ej, error meddelande
       .then((response) => {
         console.log("SUCCESS!", response.status, response.text);
       })
@@ -25,14 +29,17 @@ function Contact() {
       });
   };
 
+  //skickar input data med send-funktion
   const handleChange = (e) => {
     setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
+  //returnerar kontaktformulär med input namn, email och meddelande
+  //handlechange kopplar att skicka input vid button
   return (
     <div className="contact-container">
       <div className="form-container">
-      <h2>Kontaktformulär</h2>
+      <center><h2>KONTAKTA MIG</h2></center>
       <div className="contact-border"></div>
 
       <form onSubmit={onSubmit}>

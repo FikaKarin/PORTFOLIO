@@ -1,14 +1,12 @@
 
 
-img {
+.cv-container center img {
     margin-top: 4rem;
     padding: 20px;
-    max-height: 90em;
-    max-width: 870px;
     transition: all 0.3s ease-in-out;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 3px solid hotpink;
-    width: 90%;
+    width: 50%;
 }
 
 img:hover {
