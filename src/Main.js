@@ -1,6 +1,6 @@
 
 import './Main.css'
-import mainPic from '../src/mainPic.png'
+// import mainPic from '../src/mainPic.png'
 
 
 const Main = () => {
@@ -9,16 +9,16 @@ const Main = () => {
     return ( 
         <div className='main-content'>
            
-           <center><img src={mainPic} alt="mainPic" /></center>
-           
-           
+           {/* <center><img src={mainPic} alt="mainPic" /></center> */}
+          
            <center><div className='Main-container'>
            <br></br>
               <h4>
                
               Hej!<br></br>
               Vad kul att du kikar in på min portfolio.<br></br>
-              Den är just nu under uppbyggnad under tiden som jag studerar, men kika gärna runt och lär känna mig lite mer!
+              Denna app är en inlämningsuppgift i Javascript 2, React.<br></br><br></br>
+              Därför är CSS och design inte fullt utvecklad men kika gärna runt och lär känna mig lite mer!
               <br></br>
               <br></br>
               /Karin

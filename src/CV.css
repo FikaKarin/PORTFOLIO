@@ -1,16 +1,18 @@
 
 
+
 .cv-container center img {
     margin-top: 4rem;
     padding: 20px;
     transition: all 0.3s ease-in-out;
     border-radius: 5px;
-    border: 3px solid yellow;
     width: 50%;
+    transition: all 0.1s ease-in;
+    box-shadow: -5px 4px 10px  rgba(0, 0, 0, 0.2), -3px 6px 10px 0 rgba(0, 0, 0, 1);
+    /* padding: 5px; */
 }
 
 .cv-container img:hover {
-    transition: all 0.1s ease-in;
-    box-shadow: 5px 4px 20px  rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-    padding: 15px;
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in;
 }

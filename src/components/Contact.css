@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 
 .contact-container {
@@ -17,9 +17,8 @@ h2 {
   width: 30% auto;
   font-size: 2rem;
   color: black;
-  font-family: 'Bungee Inline', cursive;
-  text-shadow: -3px -3px 4px rgb(0, 217, 255), 3px 4px 4px rgb(4, 248, 236);
-  background-color: rgba(9, 0, 133, 0.24);
+  font-family:'Megrim', cursive;
+  text-shadow: -3px -3px 4px rgb(98, 231, 255), 3px 4px 4px rgb(248, 244, 4);
 }
 
 .name {
@@ -55,7 +54,7 @@ h2 {
 button {
   padding: 3px;
   border-radius: 5px;
-  /* background-image: url("/public/images/galaxy.jpg"); */
+  background-image: url("/public/images/galaxy.jpg");
   border: 2px solid black;
   font-weight: bold;
   margin: 0.5rem;
@@ -64,7 +63,7 @@ button {
   width: 20vw;
   border: 2px solid turquoise;
   max-width: 150px;
-  background-color: rgba(130, 204, 233, 0.308);
+  /* background-color: rgba(130, 204, 233, 0.308); */
   font-size: large;
 }
 
@@ -76,8 +75,8 @@ button:hover {
 }
 
 .form-container {
-  border: 3px solid rgb(206, 255, 250);
-  border-radius: 10px;
+  /* border: 3px solid rgb(206, 255, 250); */
+  border-radius: 5px;
   padding: 20px;
   backdrop-filter: blur(15px);
   width: 50%;
@@ -90,6 +89,7 @@ button:hover {
 .contact-border {
   border-top: 2px solid yellow;
   margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 .name {

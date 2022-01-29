@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { useState } from "react";
 import { GiHamburger } from "react-icons/gi";
-import LogoNav from '../src/LogoNav.png'
 
 
 const Navbar = () => {
@@ -18,15 +17,16 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="nav-link-left">
-          <Link to="/Main" className="link-left karin">
-            <img style={{border: 10, padding: 1, borderRadius: 0, width: 60, height: 70, marginTop: -7, marginBottom: -12}} src={LogoNav} alt="LogoNav" />
+          <Link to="/Main" className="link-left-karin">
+            Karin Lundqvist
           </Link>
-          <Link style={{padding: 8, width: 100, height: 50, marginTop: 20, marginBottom: -12}} to="/About" className="link-left">
-            Om mig
-          </Link>
+         
         </div>
 
         <div className={`nav-link-right ${toggle ? "active" : ""}`}>
+        <Link to="/About" className="link-right" >
+            Om mig
+          </Link>
           <Link to="/Portfolio" className="link-right">
             Portfolio
           </Link>
