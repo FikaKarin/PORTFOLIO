@@ -1,4 +1,4 @@
-PORTFOLIO by Karin Lundqvist     A school assignment in Javascript 2, React.
+PORTFOLIO by Karin Lundqvist  --------   A school assignment in Javascript 2, React.
 
 Here you can: 
 
