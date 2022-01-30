@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { useState } from "react";
 import { GiHamburger } from "react-icons/gi";
-import { FaLinkedin } from "react-icons/fa";
 
 
 const Navbar = () => {
