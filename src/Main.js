@@ -18,7 +18,7 @@ const Main = () => {
               Hej!<br></br>
               Vad kul att du kikar in på min portfolio.<br></br>
               Denna app är en inlämningsuppgift i Javascript 2, React.<br></br><br></br>
-              Därför är CSS och design inte fullt utvecklad men kika gärna runt och lär känna mig lite mer!
+              Därför är CSS och funktioner inte fullt utvecklad men kika gärna runt och lär känna mig lite mer!
               <br></br>
               <br></br>
               /Karin

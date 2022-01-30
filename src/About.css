@@ -22,7 +22,7 @@ h4 center img {
   border-radius: 5px;
   max-width: 600px;
   padding: 2rem;
-  backdrop-filter: blur(35px);
+  backdrop-filter: blur(25px);
   font-size: 1rem;
   text-align: left;
   line-height: 1.6;
@@ -39,6 +39,9 @@ h4 center img {
   box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
     padding: 20px;
+    background-color: rgba(48, 2, 255, 0.61);
+    color: rgb(206, 247, 243);
+
 }
 
 @media screen and (max-width: 900px) {

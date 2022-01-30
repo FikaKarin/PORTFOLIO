@@ -3,7 +3,7 @@
 /* Ger bakgrundsbild till Navbar */
 .App {
   text-align: center;
-  background: url("../public/images//galaxy.jpg") center center/cover no-repeat;
+  background: url("../public/images/backBox.jpg") center center/cover no-repeat;
   width: 100vw;
   /* height: 200vh; */
   /* background-size: cover;

@@ -3,13 +3,15 @@
 
 * {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
   color: turquoise;
+  font-size: 1rem;
 }
 
-* path {
-  color: yellow;
+ path {
+  color: rgb(17, 0, 255);
+
 }
+
 
 .NavLogo {
   color:turquoise;
@@ -26,32 +28,19 @@
   /* border-bottom: 2.5px solid rgb(253, 194, 84); */
 }
 
-link-right-icons {
-  border-radius: 10px;
-  text-shadow: -1px 1px 2px black;
-  font-size: 2rem;
-  color: rgb(166, 255, 246);
-  text-decoration: none;
-  padding: 10px;
-  /* transition: all 0.3s ease-in-out; */
-  border-radius: 3px;
-  font-weight: bold;
-  margin: 5px;
-  backdrop-filter: blur(6px);
-}
-
-a {
-  text-shadow: -1px 1px 2px black;
+.navbar a {
+  /* text-shadow: -1px -1px 1px black; */
   font-size: 1.3rem;
-  color: rgb(166, 255, 246);
   text-decoration: none;
   padding: 10px;
   /* transition: all 0.3s ease-in-out; */
   border-radius: 3px;
   font-weight: bold;
   margin: 5px;
-  backdrop-filter: blur(6px);
-  /* border: 2px solid; */
+  backdrop-filter: blur(16px);
+  border: 1px solid black;
+  box-shadow: -4px 4px 3px 0 rgb(0, 4, 255), 0 6px 3px 0 rgb(0, 4, 255);
+  font-weight: bolder;
 }
 
 .nav-link-left,
@@ -98,20 +87,22 @@ margin-top: 1.8rem;
 }
 
 .nav-link-right .link-right {
-  font-size: 1.3rem;
-  color: rgb(166, 255, 246);
+  font-size: 1.4rem;
+  /* text-shadow: -1px -3px 4px rgb(136, 236, 240), -2px 3px 4px yellow; */
+  color: black;
   text-decoration: none;
   padding: 10px;
   /* transition: all 0.3s ease-in-out; */
   border-radius: 3px;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 5px;
   backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 43, 0.733);
 }
 
 .nav-link-right .link-right:hover {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-  font-weight: bolder;
+  box-shadow: 0 0px 0px 0 rgba(0, 4, 255, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 1);
+  transition: all 0.1s ease-in;
 }
 
 .navbar .nav-link-left .link-left:hover {
@@ -119,46 +110,48 @@ margin-top: 1.8rem;
   border-radius: 3px;
   font-weight: bold;
   padding-bottom: 5p;
+  
 }
 .toggle-menu {
   display: none;
 }
 
 .sub-nav-right {
-  z-index: 4;
+  align-items: center;
+  border: 2px solid yellow;
   display: flex;
+  flex-direction: column;
   font-weight: bold;
-  width: 110px;
   height: 340px;
+  justify-content: space-around;
   position: absolute;
   right: 0;
   top: -100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
   transition: all 2ms ease-in;
-  background-image: url(/public/images/galaxy.jpg);
-  border: 2px solid yellow;
+  width: 110px;
+  height: 450px;
+  z-index: 4;
 }
 
 .sub-nav-right a {
   /* top: 5rem;
   margin-top: 50px;
   margin-right: 15px;
-  font-size: 1rem;
-  padding: 1rem; */
-  background-color: rgb(11, 112, 112);
+  font-size: 1rem;*/
+   padding: 1rem; 
   border-radius: 3px;
-  box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
   backdrop-filter: blur(3px);
+  color:black;
 }
 
 .sub-nav-right .link-right {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1120px) {
+
+@media screen and (max-width: 1220px) {
   .nav-link-right {
     display: none;
   }
@@ -179,31 +172,35 @@ margin-top: 1.8rem;
   }
 
   .sub-nav-right.active {
-    top: 5rem;
+    top: 6rem;
     margin-top: 50px;
     margin-right: 15px;
     font-size: 1rem;
     padding: 4rem;
-    background-color: rgb(11, 112, 112);
     border-radius: 10px;
     box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
       -10px 16px 20px 0 rgba(0, 0, 0, 1);
     border: 2px solid yellow;
     backdrop-filter: blur(3px);
+
   }
 
   .sub-nav-right.active a {
-    color: rgb(87, 255, 238);
+    color:black;    
     text-decoration: none;
-    /* padding: 10px; */
+    /* padding: 15px; */
+    margin: 0.4rem;
     font-size: 1rem;
+    box-shadow: -4px 4px 3px 0 rgb(0, 4, 255), 0 6px 3px 0 rgb(0, 4, 255);
+    border: 1px solid black;
+    background-color: rgba(255, 255, 43, 0.733);
   }
 
   .sub-nav-right.active a:hover {
     top: 60px;
-    box-shadow: 0 4px 4px 0 rgb(231, 8, 8), 0 -4px 4px  rgb(253, 0, 0);
-    /* transition: all 0.1s ease-in; */
-    border: 2px solid turquoise;
+    transition: all 0.1s ease-in;
+    box-shadow: 0px 0px 0px 0 rgb(0, 4, 255), 0 0px 0px 0 rgb(0, 4, 255);
+
   }
   .sub-nav-right {
     transition: all 1s ease-in;
