@@ -3,53 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
-.box{
-  float:left;
-  overflow: hidden;
-  background: #f0e68c;
-}
-/* Add padding and border to inner content
-for better animation effect */
-.box-inner{
-  width: 400px;
-  padding: 10px;
-  border: 1px solid #a29415;
-}
 
-
-
-
-.main-content .Main-container h1 h2 {
-  font-size: 2.2rem;
-  font-family: 'Montserrat', sans-serif;
-  /* text-shadow: 0px 0px 0px , 0px 0px 0px ; */
-  text-shadow: -3px -3px 3px rgb(136, 236, 240), 3px 3px 4px yellow;
-  color: black;
-  padding-left: 0.1rem;
-}
-
-.main-content .Main-container h4 {
-  width: 100%;
-  color: rgb(255, 255, 255);
-  /* text-shadow: 3px 3px 6px black; */
-  font-size: 1rem;
-}
-
-.Main-container:hover {
-    /* background-color: rgba(54, 71, 224, 0.288); */
-    /* background-color: rgba(102, 223, 211, 0.473); */
-    backdrop-filter: blur(30px);
-    transition: all 0.2s ease-in;
-    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 1);
-    
+.main-content {
+  display: flex;
+  flex-direction: column;
+ 
 
 }
 
+
+/* MAIN CONTAINER */
 .Main-container  {
   width: 80%;
   margin: 67px;
   border-radius: 5px;
-  max-width: 600px;
+  /* max-width: 600px; */
   padding: 2rem;
   backdrop-filter: blur(10px);
   text-align: left;
@@ -57,7 +25,17 @@ for better animation effect */
   font-weight: lighter;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
   font-family: "Montserrat", sans-serif;
-  position:absolute;
+  display: flex;
+  flex-direction: row;
+}
+.Main-container:hover {
+  /* background-color: rgba(54, 71, 224, 0.288); */
+  /* background-color: rgba(102, 223, 211, 0.473); */
+  backdrop-filter: blur(30px);
+  transition: all 0.2s ease-in;
+  box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 1);
+  
+
 }
 
 .Main-container img {
@@ -65,5 +43,84 @@ for better animation effect */
   padding-left: 0.1rem;
   border-top-right-radius: 160px;
   border-bottom-left-radius: 160px;
+  max-width: 40rem;
 }
 
+
+.About2 {
+  margin-right: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(7, 199, 4, 0.857);
+  padding: 25px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  font-size: 1.3rem;
+}
+.About2 h1 {
+  color: rgb(8, 40, 247);
+  font-size: 1.1rem;
+  font-weight: bold;
+
+}
+
+.About4 {
+  margin-right: 1rem;
+  color: rgb(0, 0, 0);
+  background-color: rgba(236, 83, 83, 0.714);
+  padding: 25px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  font-size: 1.3rem;
+}
+.About4 h1 {
+  color: white;
+  font-size: 1.1rem;
+  color: rgb(235, 247, 8);
+
+}
+
+.About3 {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6rem;
+  
+}
+
+
+/* .Important{
+  margin-left: 3rem;
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.774);
+  padding: 25px;
+  border-bottom-right-radius: 60px;
+  border-top-left-radius: 60px;
+  width:50%;
+
+ } */
+ .main-content .About3 .Important h2 {
+  color: white;
+  font-size: 1.1rem;
+  text-shadow: 0px 0px 0px;
+  font-weight: lighter;
+
+ }
+
+.About-title {
+  background-color: rgba(255, 255, 0, 0.53);
+  padding: 10px;
+}
+
+.Portfolio-title {
+  background-color: rgba(255, 255, 0, 0.53);
+  padding: 10px;
+}
+
+.About-title h2{
+text-align: left;
+margin-left: 19rem;
+}
+
+.Portfolio-title h2 {
+  text-align: right;
+margin-right: 27rem;
+}
