@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import './components/Card.css';
 
+
+//Funktion som hämtar repos från GitHub och skriver ut den i stylat card från Card.js
 function FetchApi() {
   const [data, setData] = useState();
   useEffect(() => {
@@ -14,6 +16,8 @@ function FetchApi() {
         console.log(data);
       });
   }, []);
+
+  //Mappar igenom datan och hämtar id från item
   return <div className="card"> {data && data.map((item) => <div key={item.id}>
             <div className="card-container">
             <h2>{item.name}</h2>

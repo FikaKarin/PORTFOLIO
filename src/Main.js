@@ -1,34 +1,33 @@
+import "./Main.css";
+import Profile from "../src/Profile.png";
 
-import './Main.css'
-// import mainPic from '../src/mainPic.png'
-
-
+//Main-komponent med bild och text
 const Main = () => {
-
-
-    return ( 
-        <div className='main-content'>
-           
-           {/* <center><img src={mainPic} alt="mainPic" /></center> */}
-          
-           <center><div className='Main-container'>
-           <br></br>
-              <h4>
-               
-              Hej!<br></br>
-              Vad kul att du kikar in på min portfolio.<br></br>
-              Denna app är en inlämningsuppgift i Javascript 2, React.<br></br><br></br>
-              Därför är CSS och funktioner inte fullt utvecklad men kika gärna runt och lär känna mig lite mer!
-              <br></br>
-              <br></br>
-              /Karin
-              <br></br>
-              </h4>
-              
-           </div>
-           </center>
+  return (
+    <div className="main-content">
+      <center>
+        <div className="Main-container">
+          <br></br>
+          <h1>
+            <img src={Profile} alt="Profile" />
+            <br></br>
+            <br></br>
+            <h4 style={{ fontSize: 20 }}>
+              {" "}
+              | Hej |<br></br>
+            </h4>
+            <h4 style={{ fontSize: 20 }}>Jag heter Karin Lundqvist och är</h4>
+            <h2>FRONT END DEVELOPER</h2>
+            <br></br>
+            <h4>
+              | DANSARE | | KOREOGRAF |<br></br>
+            </h4>
+          </h1>
         </div>
-     );
-}
- 
+      </center>
+      
+    </div>
+  );
+};
+
 export default Main;

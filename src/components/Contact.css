@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
 .contact-container {
@@ -17,9 +17,9 @@ h2 {
   width: 30% auto;
   font-size: 2.3rem;
   color: black;
-  font-family:'Megrim', cursive;
-  text-shadow: -2px -2px 2px yellow;
-  
+  font-family: 'Montserrat', sans-serif;  text-shadow: -2px -2px 1px yellow;
+  text-shadow: -3px -3px 3px rgb(136, 236, 240), 3px 3px 4px yellow;
+
 }
 
 .name {

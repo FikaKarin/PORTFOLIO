@@ -4,7 +4,7 @@ import "./Navbar.css";
 import { useState } from "react";
 import { GiHamburger } from "react-icons/gi";
 
-
+//Const med boolean för Navbar
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -13,29 +13,37 @@ const Navbar = () => {
     console.log(toggle);
   };
 
+  //Innehåll i navbaren, länkar till componenter och externa länkar
   return (
     <>
       <nav className="navbar">
         <div className="nav-link-left">
+
+          {/* Länk till Portfolio */}
           <Link to="/Main" className="link-left-karin">
-            Karin Lundqvist
+            Karin Lundqvist 
           </Link>
-         
         </div>
 
+        {/* Högersida av navbar */}
         <div className={`nav-link-right ${toggle ? "active" : ""}`}>
+        
+        {/* Länk till About */}
         <Link to="/About" className="link-right" >
             Om mig
           </Link>
+
+          {/* Länk till Portfolio */}
           <Link to="/Portfolio" className="link-right">
             Portfolio
           </Link>
 
+          {/* Länk till CV */}
           <Link to="/CV" className="link-right">
             CV
           </Link>
 
-          
+          {/* Länk till Linked in med ikon */}
           <a
             href="https://www.linkedin.com/in/karin-lundqvist-555a3721b/"
             target="_blank"
@@ -54,6 +62,8 @@ const Navbar = () => {
             </svg>
             LinkedIn
           </a>
+
+          {/* Länk till Github med ikon */}
           <a
             href="https://github.com/FikaKarin"
             target="_blank"
@@ -72,6 +82,8 @@ const Navbar = () => {
             </svg>
              GitHub
           </a>
+
+          {/* Länk till Instagram med ikon */}
           <a
             href="https://instagram.com/lundqvistkarin"
             target="_blank"
@@ -90,11 +102,14 @@ const Navbar = () => {
             </svg>
             Instagram
           </a>
+
+          {/* Länk till Kontakt-komponent */}
           <Link to="/Contact" className="link-right">
                 Kontakt
           </Link>
         </div>
 
+        {/* Toggle-Meny START */}
         <GiHamburger onClick={handleToggle} className="toggle-menu" />
       </nav>
       <div style={{color: 'yellow'}} className={`sub-nav-right ${toggle ? "active" : ""}`}>
@@ -125,6 +140,7 @@ const Navbar = () => {
         </a>
         <Link to="/Contact">Kontakt</Link>
       </div>
+      {/* Toggle-Meny END */}
     </>
   );
 };

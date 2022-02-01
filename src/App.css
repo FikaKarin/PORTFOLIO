@@ -2,14 +2,12 @@
 
 /* Ger bakgrundsbild till Navbar */
 .App {
-  text-align: center;
-  background: url("../public/images/backBox.jpg") center center/cover no-repeat;
-  width: 100vw;
+  background: url("../public/images/backBox.jpg");
+  background-repeat: repeat-y;  width: 100vw;
   /* height: 200vh; */
   /* background-size: cover;
   background-position: center;  */
   /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  /* align-items: center; */
+  min-height: 500vh;
 }
