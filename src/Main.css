@@ -14,8 +14,7 @@
 
 /* MAIN CONTAINER */
 .Main-container  {
-  width: 80%;
-  margin: 67px;
+  margin: 6rem;
   border-radius: 5px;
   /* max-width: 600px; */
   padding: 2rem;
@@ -27,6 +26,8 @@
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: row;
+  max-width: 100%;
+
 }
 .Main-container:hover {
   /* background-color: rgba(54, 71, 224, 0.288); */
@@ -38,23 +39,31 @@
 
 }
 
+.main-content .Main-container h2 {
+  padding-right: 5rem;
+}
+
 .Main-container img {
   width: 60%;
   padding-left: 0.1rem;
   border-top-right-radius: 160px;
   border-bottom-left-radius: 160px;
-  max-width: 40rem;
+  max-width: 450px;
 }
 
 
 .About2 {
   margin-right: 1rem;
+  margin-left: 1.2rem;
   color: rgb(0, 0, 0);
   background-color: rgba(7, 199, 4, 0.857);
-  padding: 25px;
+  padding: 2rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 14rem;
 }
 .About2 h1 {
   color: rgb(8, 40, 247);
@@ -70,40 +79,38 @@
   padding: 25px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 1px solid black;
+  width: 14rem;
+
+
 }
 .About4 h1 {
-  color: white;
   font-size: 1.1rem;
   color: rgb(235, 247, 8);
 
 }
 
 .About3 {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 6rem;
-  
+  margin-right: 1rem;
+  color: rgb(0, 0, 0);
+  padding: 2rem;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: yellow;
+  border: 1px solid black;
+  width: 14rem;
+
 }
 
+.About3 h1 {
+color: red;
+font-weight: bold;
+}
 
-/* .Important{
-  margin-left: 3rem;
-  color: rgb(255, 255, 255);
-  background-color: rgba(0, 0, 0, 0.774);
-  padding: 25px;
-  border-bottom-right-radius: 60px;
-  border-top-left-radius: 60px;
-  width:50%;
-
- } */
- .main-content .About3 .Important h2 {
-  color: white;
-  font-size: 1.1rem;
-  text-shadow: 0px 0px 0px;
-  font-weight: lighter;
-
- }
 
 .About-title {
   background-color: rgba(255, 255, 0, 0.53);
@@ -124,3 +131,16 @@ margin-left: 19rem;
   text-align: right;
 margin-right: 27rem;
 }
+
+
+@media screen and (max-width: 850) {
+
+  .Main-container  {
+   
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+  
+  }
+}
+

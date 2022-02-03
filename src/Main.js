@@ -27,11 +27,9 @@ const Main = () => {
             
             <h1>BAKGRUND:</h1><br></br>
             Dansare & Koreograf<br></br>
-            Projektledare<br></br>
             Lärare<br></br>
             Scentekniker<br></br>
             Office Manager<br></br>
-            Producent<br></br>
             Lagerarbetare<br></br>
             Barista<br></br>
 
@@ -48,14 +46,20 @@ const Main = () => {
             Idéspruta<br></br>
 
             </div>
+
+            <div className="About3">
+            <h1>UTVECKLING:</h1><br></br>
+            Mitt intresse för design gör att jag vill fortsätta utvecklas i CSS och animering.
+            Jag vill sätta en egen prägel och personlighet till det arbetet jag utför. Fortbildning är därför något som jag värdesätter högt så att jag inte bara är konkurenskraftig utan också kan bredda mina verktyg för att skapa så unika hemsidor och appar som möjligt.
+            <br></br>
+            <br></br>
+
+            
+            </div>
             
         </div>
 
-        <div className="About3">
-        <div className="Important">
         
-            </div>
-            </div>
             <br></br>
             <br></br>
             <br></br>
