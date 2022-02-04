@@ -1,10 +1,13 @@
+.Portfolio-all .portfolio-container .port-images {
+  display:flex;
+  flex-direction: column;
+}
+
 .portfolio-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:flex-end;
+    justify-content:center;
     margin-top: 4rem;
-    margin-right: 15rem;
   }
 
-  

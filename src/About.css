@@ -25,11 +25,11 @@ h4 center img {
   line-height: 1.6;
   font-weight: lighter;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-  color: rgb(181, 240, 234);
+  color: black;
   font-family: "Montserrat", sans-serif;
   /* border: 3px solid yellow; */
   width: 70%;
-  background-color: rgba(48, 2, 255, 0.61);
+  background-color: rgba(253, 253, 197, 0.836);
 
 }
 
@@ -38,7 +38,6 @@ h4 center img {
   box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
     padding: 20px;
-    color: rgb(206, 247, 243);
 
 }
 

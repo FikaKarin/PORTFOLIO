@@ -2,6 +2,7 @@
 import './components/Portfolio.css';
 import FetchApi from './FetchApi';
 
+
 // const information = {
 //   title: 'Fire Sauce',
 //   text: 'Skoluppgift. Grupparbete i Javascript 2. SPA (Single Page Application). eCom för starka såser.',
@@ -19,15 +20,17 @@ import FetchApi from './FetchApi';
 
 const Portfolio = () => {
   return (
+    <>
   <div className="portfolio-container">
     {/* <Card title={information.title} text={information.text} link={information.link}/>
 
     <Card title={information2.title} text={information2.text} link={information2.link}/> */}
 
     <FetchApi />
+  </div>
 
-
-  </div>)
+  
+  </>)
 }
     
 
