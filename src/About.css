@@ -10,6 +10,7 @@ h4 center img {
   margin-top: -40px;
   display: flex;
   position:relative;
+  
 }
 
 .About-container h4 {
@@ -27,7 +28,9 @@ h4 center img {
   color: rgb(181, 240, 234);
   font-family: "Montserrat", sans-serif;
   /* border: 3px solid yellow; */
-  width: 70%
+  width: 70%;
+  background-color: rgba(48, 2, 255, 0.61);
+
 }
 
 .About-container h4:hover {
@@ -35,7 +38,6 @@ h4 center img {
   box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
     -10px 16px 20px 0 rgba(0, 0, 0, 1);
     padding: 20px;
-    background-color: rgba(48, 2, 255, 0.61);
     color: rgb(206, 247, 243);
 
 }

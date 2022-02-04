@@ -16,16 +16,16 @@ const About = () => {
           och har sedan dess blivit kvar i storstaden.
           <br></br>
           <br></br>
-          Det här med programmering kom till mig som ett "Sliding Door"-moment.
+          Programmering kom till mig som ett "Sliding Door"-moment.
           Jag har alltid haft en Matrix-dröm om att vara en cool kodare som
           räddar världen men gick på myten om att man tvungen att vara ett geni
           på matematik.<br></br>
-          Turen kom när vänner såg mig i flera år söka efter ett nytt yrke, en
-          ny inriktning i livet. Det hela började blygsamt när en vän visade mig
-          Googles app Grasshopper (JavaScript). En annan vän som jobbar som
-          systemutvecklare såg att mitt intresse växte och hjälpte mig vidare
-          och visade mig basic Java och C#. Ett halvår senare hade jag tagit
-          flertalet kurser online, tagit kompletteringskurs i Programmering 1
+          Turen kom när 2 av mina närmsta vänner såg mig, i flera år, söka efter ett nytt yrke, en
+          ny inriktning i livet. Det hela började blygsamt när en av dessa vänner visade mig
+          Googles app Grasshopper (JavaScript). Den andra vännen, som jobbar som
+          systemutvecklare, såg att mitt intresse växte och hjälpte mig vidare
+          och visade mig basic Java och C#. Ett halvår senare var jag säker på att det var Front End som jag tycklte var roligast. Jag hade tagit
+          några kurser online, kompletteringskurs i Programmering 1
           och kommit in på YH.
           <br></br>
           Idag studerar jag på KYH, Front end-utveckling med god ämnesspridning

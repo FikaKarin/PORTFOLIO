@@ -39,12 +39,13 @@
 
 }
 
-.main-content .Main-container h2 {
+.main .main-content .Main-container h2 {
   padding-right: 5rem;
+
 }
 
 .Main-container img {
-  width: 60%;
+  width: 90%;
   padding-left: 0.1rem;
   border-top-right-radius: 160px;
   border-bottom-left-radius: 160px;
@@ -55,23 +56,44 @@
   width: 100%;
 }
 
+.main .main-content .Main-container .About1 p {
+  font-size: 1.5rem;
+  color: black;
+  background-color: yellow;
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+  font-style: italic;
+  border: 1px solid black;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  font-family: "Montserrat", sans-serif;
+  max-width: 450px;
+}
+
+.main .main-content .Main-container .About1 h5 {
+  font-size: 1.1rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+}
+
 
 .About2 {
   margin-right: 1rem;
-  margin-left: 1.2rem;
   color: rgb(0, 0, 0);
   background-color: rgba(7, 199, 4, 0.857);
-  padding: 2rem;
+  padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   font-size: 1.1rem;
   font-weight: bold;
   border: 1px solid black;
-  width: 20vw;
+  width: 24vw;
+
 }
 .About2 h1 {
   color: rgb(8, 40, 247);
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: bold;
 
 }
@@ -79,68 +101,98 @@
 .About4 {
   margin-right: 1rem;
   color: rgb(0, 0, 0);
-  background-color: rgba(236, 83, 83, 0.714);
-  padding: 25px;
+  background-color: rgba(252, 132, 216, 0.856);
+  padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   font-size: 1.1rem;
   font-weight: bold;
   border: 1px solid black;
-  width: 20vw;
+  width: 24vw;
+  margin-left: 1.2rem;
+
 
 }
 .About4 h1 {
-  font-size: 1.1rem;
-  color: rgb(235, 247, 8);
+  font-size: 1.3rem;
+  color: rgb(255, 251, 0);
 
 }
 
 .About3 {
   margin-right: 1rem;
   color: rgb(0, 0, 0);
-  padding: 2rem;
+  padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
   font-size: 1.1rem;
   font-weight: bold;
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.863);
   border: 1px solid black;
-  width: 20vw;
+  width: 24vw;
+  margin-left: 1.2rem;
+
 }
 
 .About3 h1 {
 color: red;
 font-weight: bold;
+font-size: 1.3rem;
+
+}
+
+.About5 {
+  
+  margin-right: 1rem;
+  color: rgb(0, 0, 0);
+  padding: 0.9rem;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgba(40, 212, 255, 0.788);
+  border: 1px solid black;
+  width: 24vw;
+  margin-left: 1.2rem;
+
+}
+.About5 h1 {
+  font-size: 1.3rem;
+  color: rgb(21, 255, 0);
+
 }
 
 
 .About-title {
   background-color: rgba(255, 255, 0, 0.53);
   padding: 10px;
+  text-align: center;
 }
 
 .Portfolio-title {
   background-color: rgba(255, 255, 0, 0.53);
   padding: 10px;
+  text-align: center;
+
 }
 
 .About-title h2{
 text-align: left;
-margin-left: 19rem;
+text-align: center;
 }
 
 .Portfolio-title h2 {
   text-align: right;
-margin-right: 27rem;
-}
+  text-align: center;
+  }
 
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1550px) {
 
  .main .main-content .Main-container {
    display: block;
  }
- .About2 .About3 .About4{
+ .About2 .About3 .About4 .About5{
   width: 18rem;
  }
 }
