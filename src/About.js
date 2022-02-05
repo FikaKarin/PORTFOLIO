@@ -21,8 +21,8 @@ const About = () => {
           räddar världen men gick på myten om att man tvungen att vara ett geni
           på matematik.<br></br>
           Turen kom när 2 av mina närmsta vänner såg mig, i flera år, söka efter ett nytt yrke, en
-          ny inriktning i livet. Det hela började blygsamt när en av dessa vänner visade mig
-          Googles app Grasshopper (JavaScript). Den andra vännen, som jobbar som
+          ny inriktning i livet. Det hela började blygsamt med
+          Googles app Grasshopper (JavaScript). som jobbar som
           systemutvecklare, såg att mitt intresse växte och hjälpte mig vidare
           och visade mig basic Java och C#. Ett halvår senare var jag säker på att det var Front End som jag tycklte var roligast. Jag hade tagit
           några kurser online, kompletteringskurs i Programmering 1

@@ -14,10 +14,10 @@
 
 /* MAIN CONTAINER */
 .Main-container  {
-  margin: 6rem;
+  margin: 2rem;
   border-radius: 5px;
   /* max-width: 600px; */
-  padding: 2rem;
+  padding: 1rem;
   backdrop-filter: blur(10px);
   text-align: left;
   line-height: 1.6;
@@ -26,13 +26,13 @@
   font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: row;
-  max-width: 100%;
-
+  max-width: 90%;
+  max-height: 90%;
 }
 .Main-container:hover {
   /* background-color: rgba(54, 71, 224, 0.288); */
   /* background-color: rgba(102, 223, 211, 0.473); */
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(60px);
   transition: all 0.2s ease-in;
   box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 1);
   
@@ -41,37 +41,47 @@
 
 .main .main-content .Main-container h2 {
   padding-right: 5rem;
-
+  margin-top: 0.3rem;
 }
 
 .Main-container img {
   width: 90%;
   padding-left: 0.1rem;
-  border-top-right-radius: 160px;
-  border-bottom-left-radius: 160px;
-  max-width: 450px;
+  border-radius: 10px;
+  max-width: 350px;
+  margin-left: 3rem;
 }
 
 .About1 {
   width: 100%;
 }
 
+.About1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem;
+  margin-left: 1rem;
+  text-shadow: -3px -3px 7px rgb(0, 0, 0), 5px 5px 6px rgb(0, 38, 255) ;
+  padding-top: 10px;
+  color: rgb(255, 230, 0);
+}
+
 .main .main-content .Main-container .About1 p {
   font-size: 1.5rem;
   color: black;
-  background-color: yellow;
-  padding: 1.5rem;
+  background-color: rgba(255, 234, 166, 0.76);
+  padding: 1.2rem;
   padding-bottom: 2rem;
   font-style: italic;
   border: 1px solid black;
-  border-top-right-radius: 60px;
-  border-bottom-left-radius: 60px;
+
   font-family: "Montserrat", sans-serif;
-  max-width: 450px;
+  max-width: 490px;
+  margin-right: 5px;
+  margin-top: 0rem;
 }
 
 .main .main-content .Main-container .About1 h5 {
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   color: black;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
@@ -79,85 +89,90 @@
 
 
 .About2 {
-  margin-right: 1rem;
+  margin-top: 4rem;
+  margin-right: 0.3rem;
   color: rgb(0, 0, 0);
   background-color: rgba(253, 253, 197, 0.863);
   padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   border: 1px solid black;
-  width: 24vw;
-
+  width: 26vw;
+  padding-bottom: 2rem;
 }
+
 .About2 h1 {
   color: rgb(8, 40, 247);
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: bold;
 
 }
 
 .About4 {
-  margin-right: 1rem;
+  margin-top: 7rem;
   color: rgb(0, 0, 0);
   background-color: rgba(253, 253, 197, 0.836);
   padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   border: 1px solid black;
-  width: 24vw;
-  margin-left: 1.2rem;
-
+  width: 26vw;
+  margin-right: 0.3rem;
+  padding-bottom: 2rem;
 
 }
+
 .About4 h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: red;
 
 }
 
 .About3 {
-  margin-right: 1rem;
+  margin-top: 10rem;
   color: rgb(0, 0, 0);
   padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   background-color: rgba(253, 253, 197, 0.836);
   border: 1px solid black;
-  width: 24vw;
-  margin-left: 1.2rem;
+  width: 26vw;
+  margin-right: 0.3rem;
+  padding-bottom: 2rem;
 
 }
 
 .About3 h1 {
 color: purple;
 font-weight: bold;
-font-size: 1.3rem;
+font-size: 1rem;
 
 }
 
 .About5 {
-  
-  margin-right: 1rem;
+  margin-top: 13rem;
+  margin-right: 0.3rem;
   color: rgb(0, 0, 0);
   padding: 0.9rem;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   background-color: rgba(253, 253, 197, 0.808);
   border: 1px solid black;
-  width: 24vw;
-  margin-left: 1.2rem;
+  width: 26vw;
+  margin-right: 0.3rem;
+  padding-bottom: 2rem;
 
 }
 .About5 h1 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: rgb(21, 201, 5);
 
 }
@@ -187,7 +202,7 @@ text-align: center;
   }
 
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1100px) {
 
  .main .main-content .Main-container {
    display: block;
@@ -195,5 +210,9 @@ text-align: center;
  .About2 .About3 .About4 .About5{
   width: 18rem;
  }
+ .About1 {
+   position: relative;
+  justify-content: center;
+  }
 }
 

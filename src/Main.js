@@ -1,5 +1,5 @@
 import "./Main.css";
-import Profile from "../src/Profile.png";
+// import Profile from "../src/Profile.png";
 import About from "../src/About";
 import Portfolio from "../src/Portfolio"
 import Contact from './components/Contact'
@@ -13,12 +13,14 @@ const Main = () => {
 
           
           <div className="About1">
-            <img src={Profile} alt="Profile" />
+            
+          
+            {/* <img src={Profile} alt="Profile" /> */}
             <br></br>
-            <br></br>
-           
+
             <h2>FRONT END DEVELOPER</h2>
-            <br></br><br></br><br></br>
+        
+            <br></br>
            <p>Hej! <br></br> <h5>Välkommen till min portfolio. Denna React app är en skoluppgift i JS 2. Ha därför i åtanke att sidans design var en uppgift som skulle lösas på bästa sätt och inte nödvändigtvis representerar mig som färdigutbildad.<br></br>
            "Ingen minns en fegis", och något säger mig att du kommer minnas denna sida bland alla 100-tals LIA-ansökande!</h5></p>
             </div>
