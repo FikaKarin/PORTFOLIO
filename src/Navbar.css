@@ -161,7 +161,7 @@ margin-top: 1.8rem;
     display: block;
     position: absolute;
     right: 7%;
-    font-size: 4rem;
+    font-size: 3rem;
     /* border: 2px solid turquoise; */
     border-radius: 3px;
     padding: 5px;
@@ -183,8 +183,7 @@ margin-top: 1.8rem;
     box-shadow: 10px 14px 18px 0 rgba(0, 0, 0, 0.2),
       -10px 16px 20px 0 rgba(0, 0, 0, 1);
     border: 2px solid yellow;
-    backdrop-filter: blur(3px);
-
+    backdrop-filter: blur(30px);
   }
 
   .sub-nav-right.active a {

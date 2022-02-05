@@ -58,17 +58,17 @@
 
 .About1 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.3rem;
+  font-size: 4vh;
   margin-left: 1rem;
-  text-shadow: -3px -3px 7px rgb(0, 0, 0), 5px 5px 6px rgb(0, 38, 255) ;
+  text-shadow: -3px -3px 4px rgb(0, 0, 0), 5px 5px 5px rgb(0, 0, 0) ;
   padding-top: 10px;
-  color: rgb(255, 230, 0);
+  color: yellow;
 }
 
 .main .main-content .Main-container .About1 p {
   font-size: 1.5rem;
   color: black;
-  background-color: rgba(255, 234, 166, 0.76);
+  background-color: rgb(255, 252, 212);
   padding: 1.2rem;
   padding-bottom: 2rem;
   font-style: italic;
