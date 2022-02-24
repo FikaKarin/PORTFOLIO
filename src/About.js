@@ -1,6 +1,7 @@
 import "./About.css";
 import AboutYoung from "../src/AboutYoung.jpg";
 
+//About-komponent, Om Mig-text
 const About = () => {
   return (
     <div className="About-container">
